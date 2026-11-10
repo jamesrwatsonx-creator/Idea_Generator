@@ -1,0 +1,122 @@
+[
+  {
+    "id": "surprise",
+    "title": "Surprise me",
+    "requires_seed": false,
+    "description": "Discover unexpected opportunities through seeded exploration.",
+    "prompt": "prompts/modes/surprise.md",
+    "questions": [
+      "Select a specific person and recurring situation, then research before proposing a product.",
+      "Search outside familiar AI and productivity categories; retain a record of rejected directions.",
+      "Randomness chooses search directions, never supplies evidence or customer numbers."
+    ]
+  },
+  {
+    "id": "expand",
+    "title": "Improve an existing app",
+    "requires_seed": true,
+    "description": "Investigate the decisions around one application.",
+    "prompt": "prompts/modes/expand.md",
+    "questions": [
+      "Describe the decision served and the steps immediately before and after.",
+      "Find actual complaints, feature requests, exports, and companion-tool mentions.",
+      "Separate improvement to the seed app from a standalone product; neither classification automatically kills it."
+    ]
+  },
+  {
+    "id": "compose-apps",
+    "title": "Combine existing apps",
+    "requires_seed": true,
+    "description": "Recover valuable handoffs between products.",
+    "prompt": "prompts/modes/compose-apps.md",
+    "questions": [
+      "Map the same person and task across the reference apps.",
+      "Identify repeated entry, lost context, conflicting records, and unfinished actions.",
+      "Explain why the joined workflow is more valuable than integration overhead; remove any unnecessary component."
+    ]
+  },
+  {
+    "id": "repo",
+    "title": "Build from a repository",
+    "requires_seed": true,
+    "description": "Find applications for a specific technical capability.",
+    "prompt": "prompts/modes/repo.md",
+    "questions": [
+      "Inspect README, manifests and selected implementation; pin revision and exact source paths.",
+      "Separate advertised functionality from source-inspected and runtime-tested capabilities.",
+      "Find people already performing the enabled task and identify missing product infrastructure."
+    ]
+  },
+  {
+    "id": "arbitrage",
+    "title": "Find an underserved buyer",
+    "requires_seed": true,
+    "description": "Investigate structural exclusion by pricing and delivery.",
+    "prompt": "prompts/modes/arbitrage.md",
+    "questions": [
+      "Record incumbent price, packaging mechanism, minimum commitment, source and date.",
+      "Name the excluded buyer and their existing workaround; test whether exclusion reflects bad economics.",
+      "Explain the depth or workflow difference beyond discounting; incumbent responses are hypotheses."
+    ]
+  },
+  {
+    "id": "workaround",
+    "title": "Remove manual work",
+    "requires_seed": true,
+    "description": "Find a repetitive tax worth removing or assisting.",
+    "prompt": "prompts/modes/workaround.md",
+    "questions": [
+      "Measure task, frequency, time, existing costs, and the source of each number.",
+      "Separate tax, craft, ritual and coordination; consider assistive tools before rejecting craft wholesale.",
+      "Identify embedded judgment, exception handling, and what is lost through automation; annual work can support transaction pricing."
+    ]
+  },
+  {
+    "id": "data-decision",
+    "title": "Connect data into a decision",
+    "requires_seed": true,
+    "description": "Find a useful join that changes a decision.",
+    "prompt": "prompts/modes/data-decision.md",
+    "questions": [
+      "Identify the decision and the variables that can change its answer.",
+      "Name at least two sources and assess keys, coverage, freshness, access, uncertainty and use rights.",
+      "Specify the smallest useful dataset, a fallback and a test of actual decision improvement."
+    ]
+  },
+  {
+    "id": "window",
+    "title": "Exploit a recent change",
+    "requires_seed": false,
+    "description": "Find newly viable offers and migration needs.",
+    "prompt": "prompts/modes/window.md",
+    "questions": [
+      "Verify the dated change and identify affected users; never invent a retirement date.",
+      "Describe the former constraint and how the change alters a workflow or economics.",
+      "Estimate the window as a scenario, not a fact; identify what closes it and how customers can be reached."
+    ]
+  },
+  {
+    "id": "transfer",
+    "title": "Transfer across industries",
+    "requires_seed": true,
+    "description": "Move a proven mechanism to a new context.",
+    "prompt": "prompts/modes/transfer.md",
+    "questions": [
+      "Extract the mechanism behind a reference, rather than copying its surface.",
+      "Find another setting with comparable incentives and identify where the analogy breaks.",
+      "Research local workflow, buyer authority, distribution and constraints independently."
+    ]
+  },
+  {
+    "id": "inventory",
+    "title": "Compose from my capabilities",
+    "requires_seed": false,
+    "description": "Search catalogs for useful combinations without confusing supply with demand.",
+    "prompt": "prompts/modes/inventory.md",
+    "questions": [
+      "Search Maliky for available assets and Every Awesome Repo for external leads; preserve ownership distinctions.",
+      "Identify complementary capabilities, compatibility gaps, licensing and maintenance costs.",
+      "Find independent buyer evidence and compare a minimal product against the impressive but unnecessary bundle."
+    ]
+  }
+]

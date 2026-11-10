@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Captured evidence",
+  "type": "object",
+  "required": [
+    "id",
+    "source_url",
+    "retrieved_at",
+    "method",
+    "content_sha256",
+    "evidence_status",
+    "supports",
+    "limitations",
+    "origin_group"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ev_[a-f0-9]{20}$"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "method": {
+      "type": "string"
+    },
+    "content_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "evidence_status": {
+      "enum": [
+        "captured_unreviewed",
+        "reviewed_claim",
+        "behavior_reported",
+        "behavior_observed"
+      ]
+    },
+    "supports": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "origin_group": {
+      "type": "string"
+    }
+  }
+}

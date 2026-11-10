@@ -1,0 +1,17 @@
+{
+  "name": "Illustrative candidate, not researched",
+  "gates": {
+    "behavior": {
+      "status": "unknown",
+      "reason": "No observed behavior supplied",
+      "evidence_ids": []
+    }
+  },
+  "experiment": {
+    "claim": "",
+    "measurement": "",
+    "currency": "USD",
+    "deadline": "",
+    "abandon_condition": ""
+  }
+}

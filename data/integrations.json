@@ -1,0 +1,32 @@
+[
+  {
+    "id": "markdown-skill",
+    "fork": "https://github.com/jamesrwatsonx-creator/voice-website-agent-Markdown",
+    "path": "skills/markdown-new/SKILL.md",
+    "blob": "73efcb27531ceda73341e3dbcd97077496cd6af2",
+    "status": "inspected-reference",
+    "notes": "This is the located fork containing markdown-new. Treat its unsupported universal conversion and example claims as unverified. Current service docs supersede it."
+  },
+  {
+    "id": "browser-cli",
+    "fork": "https://github.com/jamesrwatsonx-creator/Ghl-and-voice-idea-agent-browser",
+    "path": "README.md",
+    "blob": "bd30ade5161e09c74993c0f5baed6d968761186d",
+    "status": "inspected-reference",
+    "notes": "Fork of vercel-labs/agent-browser; no vendoring or install performed."
+  },
+  {
+    "id": "browser-use",
+    "fork": "https://github.com/jamesrwatsonx-creator/browser-use",
+    "status": "discovered-not-inspected",
+    "notes": "Candidate alternative; upstream overview inspected, fork implementation not tested."
+  },
+  {
+    "id": "gauntlet",
+    "fork": "https://github.com/jamesrwatsonx-creator/james-watson-gauntlet-loop",
+    "path": "README.md",
+    "blob": "bb0079d77272593c05f157fc2c65243ad42fd8c1",
+    "status": "inspected-reference",
+    "notes": "Keep private constitution server-only. V1 shares the evidence/critique workflow, not private code or constitution."
+  }
+]
