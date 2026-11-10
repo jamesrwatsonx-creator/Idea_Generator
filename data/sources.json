@@ -1,0 +1,794 @@
+[
+  {
+    "id": "nosignups",
+    "name": "NoSignups",
+    "url": "https://nosignups.net/",
+    "layer": "capability",
+    "purpose": "Priority discovery of immediate-value browser tools; inspect linked tools individually.",
+    "limitations": "Directory membership is not paid demand; observed fallback dataset during research.",
+    "access": "browser",
+    "fallback_id": "alternativeto",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "tools",
+      "no signup",
+      "utilities",
+      "workflow"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "primary-discovery",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "owid-ai",
+    "name": "Our World in Data: AI",
+    "url": "https://ourworldindata.org/artificial-intelligence",
+    "layer": "structural",
+    "purpose": "AI capability, adoption and investment context; trace underlying datasets.",
+    "limitations": "Aggregate trends do not identify a paying customer; third-party data has separate terms.",
+    "access": "markdown.new",
+    "fallback_id": "stanford-ai",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "AI",
+      "adoption",
+      "data",
+      "trends"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "alternativeto",
+    "name": "AlternativeTo",
+    "url": "https://alternativeto.net/",
+    "layer": "market",
+    "purpose": "Replacement candidates and community software recommendations.",
+    "limitations": "Recommendations do not establish actual switching or spending.",
+    "access": "browser",
+    "fallback_id": "opensourcealternative",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "alternatives",
+      "software",
+      "workflow"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "opensourcealternative",
+    "name": "Open Source Alternative",
+    "url": "https://opensourcealternative.to/",
+    "layer": "capability",
+    "purpose": "Find open-source counterparts and inspect original projects.",
+    "limitations": "Listing does not prove runtime readiness or license compatibility.",
+    "access": "browser",
+    "fallback_id": "every-awesome",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "open source",
+      "alternatives",
+      "repositories"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "tinywow",
+    "name": "TinyWow",
+    "url": "https://tinywow.com/",
+    "layer": "capability",
+    "purpose": "Discover narrow utility tasks and possible sequential workflows.",
+    "limitations": "Utilities are references, not automatically reusable code or demand evidence.",
+    "access": "browser",
+    "fallback_id": "nosignups",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "PDF",
+      "image",
+      "utilities",
+      "documents"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "toolify",
+    "name": "Toolify",
+    "url": "https://www.toolify.ai/",
+    "layer": "market",
+    "purpose": "AI product categories and directory-reported visibility.",
+    "limitations": "Traffic and directory prominence are not retention or profit; sponsored placements exist.",
+    "access": "browser",
+    "fallback_id": "alternativeto",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "AI",
+      "products",
+      "traffic"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "canny",
+    "name": "Public Canny boards",
+    "url": "https://feedback.canny.io/",
+    "layer": "market",
+    "purpose": "Find public requests and comments; discover boards specific to target products.",
+    "limitations": "Votes are self-selected; this URL is Canny product feedback, not a global request dataset.",
+    "access": "browser",
+    "fallback_id": "github",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "feature request",
+      "complaints",
+      "workflow"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "cfpb",
+    "name": "CFPB Consumer Complaint Database",
+    "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+    "layer": "market",
+    "purpose": "Research financial-product complaint categories through documented downloads/API.",
+    "limitations": "Not representative; normalize carefully and inspect current narrative availability.",
+    "access": "official-api",
+    "fallback_id": "statcan",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "finance",
+      "complaints",
+      "data"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "trends",
+    "name": "Google Trends",
+    "url": "https://trends.google.com/",
+    "layer": "market",
+    "purpose": "Search-interest context, geography, vocabulary and seasonality.",
+    "limitations": "Relative search interest is not absolute demand or willingness to pay.",
+    "access": "browser",
+    "fallback_id": "statcan",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "search",
+      "trends",
+      "interest"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "similarweb",
+    "name": "Similarweb",
+    "url": "https://www.similarweb.com/",
+    "layer": "market",
+    "purpose": "Research digital traffic and acquisition signals within available access.",
+    "limitations": "Metrics may be estimates; programmatic access and coverage depend on plan.",
+    "access": "browser",
+    "fallback_id": "trends",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "traffic",
+      "apps",
+      "acquisition"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "onet",
+    "name": "O*NET OnLine",
+    "url": "https://www.onetonline.org/",
+    "layer": "structural",
+    "purpose": "Find occupation tasks, work activities, tools and related roles.",
+    "limitations": "Confirm task realities with specific practitioners; occupational averages are not a product spec.",
+    "access": "official-api",
+    "fallback_id": "atus",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "occupations",
+      "work",
+      "manual",
+      "tasks"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "atus",
+    "name": "American Time Use Survey",
+    "url": "https://www.bls.gov/tus/data.htm",
+    "layer": "structural",
+    "purpose": "Research time use and activity patterns.",
+    "limitations": "Aggregate time is not automatically recoverable economic value.",
+    "access": "download",
+    "fallback_id": "onet",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "time",
+      "work",
+      "caregiver",
+      "activities"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "statcan",
+    "name": "Statistics Canada business conditions",
+    "url": "https://www.statcan.gc.ca/en/survey/business/5318",
+    "layer": "structural",
+    "purpose": "Find business obstacles by industry and geography using official survey tables.",
+    "limitations": "Use published findings, not survey-question wording as evidence of prevalence.",
+    "access": "download",
+    "fallback_id": "worldbank",
+    "evidence_status": "research-lead",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "Canada",
+      "business",
+      "costs",
+      "obstacles"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "worldbank",
+    "name": "World Bank Open Data",
+    "url": "https://data.worldbank.org/",
+    "layer": "structural",
+    "purpose": "Economic, demographic and infrastructure indicators.",
+    "limitations": "Country aggregates do not establish local workflow demand.",
+    "access": "official-api",
+    "fallback_id": "owid-ai",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "economic",
+      "demographic",
+      "data"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "stanford-ai",
+    "name": "Stanford AI Index",
+    "url": "https://hai.stanford.edu/ai-index",
+    "layer": "structural",
+    "purpose": "Measured AI trends and original methodologies.",
+    "limitations": "Technical progress alone supplies no customer or purchasing evidence.",
+    "access": "download",
+    "fallback_id": "owid-ai",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "AI",
+      "trends",
+      "adoption"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "datagov",
+    "name": "Data.gov",
+    "url": "https://data.gov/",
+    "layer": "structural",
+    "purpose": "Discover government datasets for decisions and context.",
+    "limitations": "Inspect each original dataset for freshness, coverage, access and rights.",
+    "access": "official-api",
+    "fallback_id": "canada-open",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "public",
+      "data",
+      "government"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "canada-open",
+    "name": "Canada Open Government",
+    "url": "https://open.canada.ca/data/en/dataset",
+    "layer": "structural",
+    "purpose": "Find Canadian public datasets and relevant statistical releases.",
+    "limitations": "Dataset-level verification required; some pages blocked automated retrieval during research.",
+    "access": "official-api",
+    "fallback_id": "datagov",
+    "evidence_status": "research-lead",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "Canada",
+      "public",
+      "data"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "trustmrr",
+    "name": "TrustMRR",
+    "url": "https://trustmrr.com/docs/api",
+    "layer": "market",
+    "purpose": "Permitted market research using documented startup revenue fields.",
+    "limitations": "API policy prohibits business cloning, bulk republication and other uses. Review acceptable use before connector activation.",
+    "access": "official-api",
+    "fallback_id": "alternativeto",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "revenue",
+      "startups",
+      "pricing"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "url": "https://github.com/",
+    "layer": "capability",
+    "purpose": "Source inspection, issues and documented capabilities.",
+    "limitations": "Stars and forks are not customer demand; inspect exact paths and revisions.",
+    "access": "official-api",
+    "fallback_id": "every-awesome",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "repositories",
+      "issues",
+      "code",
+      "feature request"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "every-awesome",
+    "name": "Every Awesome Repo",
+    "url": "https://github.com/jamesrwatsonx-creator/Every-Awesome-Repo",
+    "layer": "capability",
+    "purpose": "Search external collections and individual-tool leads through existing catalog interfaces.",
+    "limitations": "Collection-level metadata does not verify every nested dependency.",
+    "access": "catalog",
+    "fallback_id": "github",
+    "evidence_status": "readme-inspected",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "tools",
+      "capabilities",
+      "repositories",
+      "data"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "maliky",
+    "name": "Maliky Repository Intelligence",
+    "url": "https://github.com/jamesrwatsonx-creator/Maliky-Repository-Intelligence",
+    "layer": "capability",
+    "purpose": "Search available assets with exact provenance; reuse rather than duplicate its catalog.",
+    "limitations": "Composition is future work in its README; not all assets are runtime-tested.",
+    "access": "catalog",
+    "fallback_id": "every-awesome",
+    "evidence_status": "readme-inspected",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "owned",
+      "assets",
+      "capabilities",
+      "repositories"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "skills",
+    "name": "skills.sh",
+    "url": "https://skills.sh/",
+    "layer": "capability",
+    "purpose": "Discover instructions and capability packages, then inspect original files.",
+    "limitations": "Installation is not reliability; retrieved instructions remain untrusted until deliberately adopted.",
+    "access": "browser",
+    "fallback_id": "github",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "skills",
+      "agents",
+      "capabilities"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "apify",
+    "name": "Apify Store",
+    "url": "https://apify.com/store",
+    "layer": "acquisition",
+    "purpose": "Discover extraction Actors and inspect input schemas, output, cost and source permissions.",
+    "limitations": "An Actor listing does not grant source-site access; no paid jobs launched automatically.",
+    "access": "official-api",
+    "fallback_id": "crawl4ai",
+    "evidence_status": "research-lead",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "scraping",
+      "extraction",
+      "actors",
+      "data"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "markdown-new",
+    "name": "markdown.new",
+    "url": "https://markdown.new/",
+    "layer": "acquisition",
+    "purpose": "Public URL to Markdown using documented POST interface; browser rendering is an option.",
+    "limitations": "Public URLs only; possible truncation and service limits. Send no credentials, signed URLs or private material.",
+    "access": "markdown.new",
+    "fallback_id": "defuddle",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "markdown",
+      "extraction",
+      "web",
+      "documents"
+    ],
+    "connector_status": "implemented_single_url",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "agent-browser",
+    "name": "Agent Browser",
+    "url": "https://github.com/vercel-labs/agent-browser",
+    "layer": "acquisition",
+    "purpose": "Interactive browser CLI for selected workflows and page evidence.",
+    "limitations": "Optional integration; CLI contract and runtime installation must be tested before automation.",
+    "access": "browser",
+    "fallback_id": "browser-use",
+    "evidence_status": "readme-inspected",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "browser",
+      "agent",
+      "interactive",
+      "web"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "browser-use",
+    "name": "Browser Use",
+    "url": "https://github.com/browser-use/browser-use",
+    "layer": "acquisition",
+    "purpose": "Alternative browser-agent library for bounded interactive research.",
+    "limitations": "Optional integration; no unlimited traversal, credentials or form submission by default.",
+    "access": "browser",
+    "fallback_id": "agent-browser",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "browser",
+      "agent",
+      "interactive"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "crawl4ai",
+    "name": "Crawl4AI",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "layer": "acquisition",
+    "purpose": "Candidate browser-assisted crawling and Markdown extraction backend.",
+    "limitations": "Registered only; dependency/version/operational costs remain to be tested.",
+    "access": "scraper",
+    "fallback_id": "apify",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "scraping",
+      "crawler",
+      "markdown"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "defuddle",
+    "name": "Defuddle",
+    "url": "https://github.com/jamesrwatsonx-creator/defuddle",
+    "layer": "acquisition",
+    "purpose": "Extract main page content as cleaned HTML or Markdown.",
+    "limitations": "Content cleaning can remove relevant comments/tables; preserve source evidence.",
+    "access": "local-conversion",
+    "fallback_id": "markdown-new",
+    "evidence_status": "readme-inspected",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "markdown",
+      "HTML",
+      "extraction"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "markitdown",
+    "name": "MarkItDown",
+    "url": "https://github.com/jamesrwatsonx-creator/markitdown",
+    "layer": "acquisition",
+    "purpose": "Convert supported local document formats to Markdown.",
+    "limitations": "Format fidelity and optional OCR/transcription dependencies vary; not any information universally.",
+    "access": "local-conversion",
+    "fallback_id": "defuddle",
+    "evidence_status": "readme-inspected",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "PDF",
+      "documents",
+      "markdown"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "rea",
+    "name": "REA",
+    "url": "https://github.com/jamesrwatsonx-creator/rea",
+    "layer": "capability",
+    "purpose": "Targeted software inspection when implementation uncertainty warrants it.",
+    "limitations": "Optional tool; authorization and evidence scope required; no automatic target execution.",
+    "access": "inspection",
+    "fallback_id": "github",
+    "evidence_status": "readme-inspected",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "reverse engineering",
+      "inspection",
+      "applications"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "craft-anything",
+    "name": "Craft Anything",
+    "url": "https://github.com/storytold/craft-anything",
+    "layer": "capability",
+    "purpose": "Reference inspection, independent implementation and comparison candidate.",
+    "limitations": "Documented capabilities only; integration not tested here.",
+    "access": "inspection",
+    "fallback_id": "rea",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "reverse engineering",
+      "inspection",
+      "reference"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "gpt-researcher",
+    "name": "GPT Researcher",
+    "url": "https://github.com/assafelovic/gpt-researcher",
+    "layer": "acquisition",
+    "purpose": "Optional research planner/retriever/report backend.",
+    "limitations": "Reports require claim checking; runtime integration not yet implemented.",
+    "access": "research-backend",
+    "fallback_id": "github",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "research",
+      "sources",
+      "citations"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "g2",
+    "name": "G2",
+    "url": "https://www.g2.com/",
+    "layer": "market",
+    "purpose": "Software reviews and alternatives for a selected category.",
+    "limitations": "Retrieval timed out; no review dataset acquired. Self-selection and vendor incentives require scrutiny.",
+    "access": "browser",
+    "fallback_id": "alternativeto",
+    "evidence_status": "research-lead",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "reviews",
+      "software",
+      "complaints"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "capterra",
+    "name": "Capterra",
+    "url": "https://www.capterra.com/",
+    "layer": "market",
+    "purpose": "Software category, pricing and review research.",
+    "limitations": "Retrieval unsupported in this session; inspect current access terms and original review evidence.",
+    "access": "browser",
+    "fallback_id": "alternativeto",
+    "evidence_status": "research-lead",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "reviews",
+      "software",
+      "pricing"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "hacker-news",
+    "name": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "layer": "market",
+    "purpose": "Ask/Show discussions, workarounds and technical product references.",
+    "limitations": "Developer-heavy self-selected sample; votes are not purchasing evidence.",
+    "access": "browser",
+    "fallback_id": "alternativeto",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "community",
+      "workaround",
+      "developer"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "google-play",
+    "name": "Google Play",
+    "url": "https://play.google.com/store/apps",
+    "layer": "market",
+    "purpose": "App descriptions, visible ratings and selected product review research.",
+    "limitations": "Store rankings and related suggestions do not establish actual co-installation; inspect country/date/access.",
+    "access": "browser",
+    "fallback_id": "alternativeto",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "apps",
+      "reviews",
+      "Android"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "app-store",
+    "name": "Apple App Store",
+    "url": "https://apps.apple.com/",
+    "layer": "market",
+    "purpose": "Product listings, pricing disclosures and app-specific review research.",
+    "limitations": "Storefront and geography affect results; no actual co-purchase dataset inferred.",
+    "access": "browser",
+    "fallback_id": "alternativeto",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "apps",
+      "reviews",
+      "mobile"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "product-hunt",
+    "name": "Product Hunt",
+    "url": "https://www.producthunt.com/",
+    "layer": "market",
+    "purpose": "Discover launches, product categories and discussion leads.",
+    "limitations": "Launch attention, promotion and upvotes do not establish demand or retention.",
+    "access": "browser",
+    "fallback_id": "alternativeto",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "launches",
+      "products",
+      "discussion"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit practitioner communities",
+    "url": "https://www.reddit.com/",
+    "layer": "market",
+    "purpose": "Find specific practitioners describing workarounds and failed alternatives.",
+    "limitations": "Use relevant public communities with allowed access; anecdotes are self-selected and APIs have separate terms.",
+    "access": "browser",
+    "fallback_id": "alternativeto",
+    "evidence_status": "reviewed-page",
+    "checked_on": "2026-11-09",
+    "tags": [
+      "community",
+      "workaround",
+      "complaints"
+    ],
+    "connector_status": "registered_not_connected",
+    "priority": "normal",
+    "terms_review": "required_per_use"
+  }
+]
